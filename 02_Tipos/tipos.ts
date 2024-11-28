@@ -80,6 +80,7 @@ enum Color {
   Green,
   Blue,
 }
+
 let c: Color = Color.Green;
 console.log(c); // 1
 
@@ -140,7 +141,7 @@ let obj: { key: String } = {
 
 obj = {
   key: 'batata',
-  // key2: 'value',
+  // key2: 'value', // Error
 };
 
 let user: { name: string; age: number; address: String[] } = {

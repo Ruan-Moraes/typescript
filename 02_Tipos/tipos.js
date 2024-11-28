@@ -108,7 +108,7 @@ let obj = {
 };
 obj = {
     key: 'batata',
-    // key2: 'value',
+    // key2: 'value', // Error
 };
 let user = {
     name: 'Alice',

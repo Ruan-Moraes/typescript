@@ -1,7 +1,7 @@
 "use strict";
 // let & const
 console.log('LET & CONST');
-let seraQuePode = '?'; // hoisting | var & let sofrem hoisting
+let seraQuePode = '?'; // hoisting | var & let não sofrem hoisting
 const estaFrio = true;
 if (estaFrio) {
     var acao = 'Colocar o casaco!';
