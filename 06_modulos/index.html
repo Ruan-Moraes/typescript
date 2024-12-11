@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../node_modules/systemjs/dist/system.js"></script>
+    <script src="geometriaRect.js"></script>
+    <script src="geometriaCirc.js"></script>
+    <script src="namespaces.js"></script>
+    <script src="modulos.js"></script>
+    <script>
+      SystemJS.config({
+        baseUrl: './',
+        packages: {
+          './': {
+            defaultJSExtension: true,
+          },
+        },
+      });
+
+      SystemJS.import('./modulos.js');
+    </script>
+    <title>Document</title>
+  </head>
+  <body></body>
+</html>
